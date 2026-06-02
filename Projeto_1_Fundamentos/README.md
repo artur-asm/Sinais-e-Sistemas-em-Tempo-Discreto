@@ -29,8 +29,7 @@ O grande diferencial deste projeto é a **implementação algorítmica purista**
 #### Comparação entre Convolução Truncada e Resposta Analítica
 <img width="600" height="374" alt="convolve_trunc_analit" src="https://github.com/user-attachments/assets/a9e97332-adce-470b-ab2e-9152c77197ce" />
 
-*O gráfico ilustra a sobreposição quase perfeita da convolução manual com o cálculo analítico, gerando um Erro Médio Quadrático (MSE) na ordem de $10^{-17}$
-.*
+O gráfico ilustra a sobreposição quase perfeita da convolução manual com o cálculo analítico, gerando um Erro Médio Quadrático (MSE) na ordem de $10^{-17}$. 
 
 ### Impacto da Reamostragem em Imagens
 #### Comparação Imagem Original vs Interpolada
