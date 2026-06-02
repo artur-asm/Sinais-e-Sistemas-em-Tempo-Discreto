@@ -8,7 +8,7 @@ O objetivo principal destes projetos é demonstrar a aplicação de conceitos ma
 
 O repositório está dividido em dois projetos fundamentais que cobrem desde a base no domínio do tempo até o projeto de filtros no domínio da frequência:
 
-### 1. [Fundamentos: Reamostragem, Convolução e Análise de Erro (MSE)](link_para_a_pasta_1)
+### 1. [Fundamentos: Reamostragem, Convolução e Análise de Erro (MSE)](Projeto_1_Fundamentos/)
 Projeto focado nas operações fundamentais de sinais e sistemas discretos no domínio do tempo e espaço.
 * **Tópicos abordados:** Decimação e interpolação (aplicadas ao processamento de imagens), resposta ao impulso analítica vs. truncada.
 * **Destaque:** Implementação manual da operação de Convolução Linear e cálculo do Erro Médio Quadrático (MSE) para validar a precisão do truncamento de sistemas.
