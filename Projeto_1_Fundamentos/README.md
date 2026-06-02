@@ -1,8 +1,4 @@
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Quite-my-Tempo/Sinais-e-Sistemas-em-Tempo-Discreto/blob/main/Projeto1_Fundamentos/projeto1.ipynb)
-
 # 📉 Fundamentos de Sinais: Reamostragem, Convolução e Análise de Erro
-
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](COLOQUE_SEU_LINK_AQUI)
 
 Este projeto explora os fundamentos de sinais e sistemas no **domínio do tempo e do espaço**. O objetivo principal é demonstrar as consequências de manipular taxas de amostragem em dados bidimensionais (imagens) e provar a eficácia de sistemas lineares invariantes no tempo através da operação de convolução.
 
@@ -28,14 +24,21 @@ O grande diferencial deste projeto é a **implementação algorítmica purista**
 
 ## 📊 Visualização de Resultados
 
-*(Adicione imagens aqui para ilustrar o projeto. Exemplos sugeridos:)*
 
 ### Convolução e Precisão do Sistema
-![Comparação entre Convolução Truncada e Resposta Analítica](caminho_para_sua_imagem_convolucao.png)
-*O gráfico ilustra a sobreposição quase perfeita da convolução manual com o cálculo analítico, gerando um Erro Médio Quadrático (MSE) na ordem de $10^{-17}$.*
+#### Comparação entre Convolução Truncada e Resposta Analítica
+<img width="600" height="374" alt="convolve_trunc_analit" src="https://github.com/user-attachments/assets/a9e97332-adce-470b-ab2e-9152c77197ce" />
+
+*O gráfico ilustra a sobreposição quase perfeita da convolução manual com o cálculo analítico, gerando um Erro Médio Quadrático (MSE) na ordem de $10^{-17}$
+.*
 
 ### Impacto da Reamostragem em Imagens
-![Comparação Imagem Original vs Decimada](caminho_para_sua_imagem_decimacao.png)
+#### Comparação Imagem Original vs Interpolada
+
+<img width="412" height="412" alt="lena" src="https://github.com/user-attachments/assets/2af36732-3e06-4bc2-8db8-56734e944304" />
+
+<img width="412" height="412" alt="decimada" src="https://github.com/user-attachments/assets/f25f80e0-9730-48d8-98ac-869a8888fedc" />
+
 *Comparativo visual do efeito de downsampling no domínio do espaço.*
 
 ## 🛠️ Tecnologias Utilizadas
