@@ -16,7 +16,7 @@ Projeto focado nas operações fundamentais de sinais e sistemas discretos no do
 ### 2. [Projeto de Filtros e Aplicação Biomédica (ECG)](Projeto_2_Filtros_ECG/)
 Projeto focado no tratamento de sinais reais de eletrocardiograma contaminados por ruídos e na transição do mundo analógico para o digital.
 * **Tópicos abordados:** Projeto geométrico de Filtros Notch e Passa-Baixas (alocação de polos e zeros), Equações de Diferenças e Transformada Bilinear (Método de Tustin).
-* **Destaque:** Filtragem "na unha" de interferência da rede elétrica (60Hz) e ruídos térmicos, além da análise do *frequency warping* ao variar a taxa de amostragem de sistemas digitalizados.
+* **Destaque:** Filtragem de interferência da rede elétrica (60Hz) e ruídos térmicos, além da análise do *frequency warping* ao variar a taxa de amostragem de sistemas digitalizados.
 
 ## 🛠️ Tecnologias e Bibliotecas Utilizadas
 * **Python 3** (Executado via Google Colab)
